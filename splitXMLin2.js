@@ -1,4 +1,5 @@
 const fs = require("fs");
+// library to parse xml to json and vice versa
 const xml2js = require("xml2js");
 
 const parser = new xml2js.Parser();
